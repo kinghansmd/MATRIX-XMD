@@ -1,7 +1,7 @@
-FROM /kinghansmd/MATRIX-XMD
-RUN git clone https://github.com/kinghansmd/MATRIX-XMD /root/MATRIX-XMD
-# RUN rm -rf /root/MATRIX/.git
-WORKDIR /root/MATRIX-XMD
+FROM quay.io/suhailtechinfo/suhail-v2
+RUN git clone https://github.com/kinghansmd/MATRIX-XMD
+# RUN rm -rf /root/SUHAIL-XMD/.git
+WORKDIR /root/SUHAIL-XMD
 RUN npm install || yarn install
 EXPOSE 8000
 CMD ["npm","start" ]
