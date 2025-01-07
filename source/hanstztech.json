@@ -1,0 +1,54 @@
+{
+    "__JSON__": true,
+    "AUTHOR": "HansTz",
+    "theme": "MATRIX-XMD",
+    "LANGUAGE": "English",
+    "LANGCODE": "en",  
+    "STRINGS": { 
+        "updater": { 
+            "UPDATE": "Bot is up to date.",
+            "UPDATED_LOCAL": "Updated Bot successfully"
+        },  
+        "global": {      
+            "botName": "MATRIX-XMD",
+            "body": "Simple WhatsApp Bot", 
+            "greet2" : "Good Day SIR",
+            "pic1": "https://files.catbox.moe/perl56.jpeg", 
+            "pic2": "https://files.catbox.moe/perl56.jpeg", 
+            "pic3": "https://files.catbox.moe/perl56.jpeg", 
+            "pic4": "https://files.catbox.moe/perl56.jpeg", 
+            "pic5": "https://files.catbox.moe/perl56.jpeg", 
+            "pic6": "https://files.catbox.moe/perl56.jpeg", 
+            "pic7": "https://files.catbox.moe/perl56.jpeg",
+            "greet" : "Hey there",
+            "dotbody" : "Oh Sir HansTz My Creator.",
+            "emojii" : "🎗️", 
+            "promote": "Future is an Admin",
+            "pmallow": "Hello &user Do not Spam",
+            "permited": "Hello Sir you Can Message Me Now.", 
+            "revoked" : "Hello sir your Permission was rejected.",
+            "demote": "Admin Role Taken back",
+            "antlink": "Link Detected.\n*I Have rremoved the violator*",
+            "session": "\n kepp your session id safe sir",
+            "mention": "Tag my owner",
+            "title": "MATRIX-XMD",
+            "footer": "MATRIX-XMD",
+            "by": "Made by HansTz",
+            "chat_desc": "Options Avilable* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
+            "success": "Done ✓",
+            "dot": "Hi, Did you mean *-help?*\n just.. don't bother me while I'm eating ramen",
+            "couple_male": "*I'm pretty sure I can't live without being helped!*",
+            "couple_female": "*I'm pretty sure I can't live without being helped!*",
+            "admin": "Only Group Admin can use this Command.",
+            "botAdmin": "Make me an Admin to take action.",
+            "owner": "You are not HansTz you idiot.",
+            "group": "It's for group only.",
+            "private": "only HansTz can use me.",
+            "bot": "It is for HansTz only.",
+            "wait": "Future is Processing..."
+        },
+        "error": {
+            "text": "Dont touch me."
+        }
+    } 
+  }
