@@ -1,23 +1,7 @@
-FROM node:lts-buster
-
-RUN apt-get update && \
-  apt-get install -y \
-  ffmpeg \
-  imagemagick \
-  webp && \
-  apt-get upgrade -y && \
-  npm i pm2 -g && \
-  rm -rf /var/lib/apt/lists/*
-  
-RUN gitclone https://github.com/kinghansmd/MATRIX-XMD
-
-
-COPY package.json .
-RUN npm install pm2 -g
-RUN npm install --legacy-peer-deps
-
-COPY . .
-
-EXPOSE 3000
-
+FROM https://github.com/kinghansmd/MATRIX-XMD
+RUN git clone https://github.com/kinghansmd/MATRIX-XMD /root/MATRIX-MD
+# RUN rm -rf /root/MATRIX/.git
+WORKDIR /root/MATRIX-XMD
+RUN npm install || yarn install
+EXPOSE 8000
 CMD ["npm","start" ]
