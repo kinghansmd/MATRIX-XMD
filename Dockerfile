@@ -1,4 +1,4 @@
-FROM https://github.com/kinghansmd/MATRIX-XMD
+FROM /kinghansmd/MATRIX-XMD
 RUN git clone https://github.com/kinghansmd/MATRIX-XMD /root/MATRIX-XMD
 # RUN rm -rf /root/MATRIX/.git
 WORKDIR /root/MATRIX-XMD
